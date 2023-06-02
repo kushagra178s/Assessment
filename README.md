@@ -1,11 +1,8 @@
+React based movies app it fetch data from api and showcases it to the user and user can click the read more for additional summary and book tickets.
 # Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
-
 In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
