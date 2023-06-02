@@ -6,7 +6,7 @@ body {
   background-size: cover;
   padding-top: 20px; */
   /* image */
-  justify-content: center;  
+  justify-content: center;
 }
 .App {
   margin-top: 10px;
@@ -38,7 +38,10 @@ body {
 .App-link {
   color: #61dafb;
 }
-
+.read-more {
+  border: 2px solid black;
+  background-color: rgb(179, 168, 168);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -55,14 +58,15 @@ body {
 }
 
 .card {
-  background-color:  #212224;
+  color: white;
+  background-color: rgb(74, 69, 69);
   text-align: center;
-  margin-top : 20px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom : 20px;
+  margin-bottom: 20px;
   width: 400px;
-  border: 2px solid blue;
+  border: 2px solid rgb(45, 45, 69);
   border-radius: 5px;
   padding: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -71,11 +75,11 @@ body {
 .card h2 {
   margin-top: 0;
 }
-
 .card p {
   margin-bottom: 0;
 }
 .summary-section {
+  color: white;
   font-size: 25px;
   margin: 0;
   letter-spacing: 2px;
@@ -92,7 +96,6 @@ body {
   font-size: 35px;
   letter-spacing: 2px;
 }
-.header p {
-  font-size: 18px;
+.header p {font-size: 18px;
   margin: 10px 0 0;
 }

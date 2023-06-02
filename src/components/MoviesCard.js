@@ -10,7 +10,7 @@ function MoviesCard(props) {
               <h2>Rating : {!props.rating ? 'Unavailable' : props.rating}</h2>
               <h4>language: {props.language}</h4>
               <h5>runtime : {props.runtime} minutes</h5>
-              <Link to = "/summary" state={{name : props.name, summary : props.summary, image : props.image, language:props.language, rating : props.rating}}>Read More</Link>
+              <Link to = "/summary" className="read-more" state={{name : props.name, summary : props.summary, image : props.image, language:props.language, rating : props.rating}}>Read More</Link>
           </div>
       </div>
   );
