@@ -1,5 +1,5 @@
 body {
-  background-color: #282c34;
+  background-color:  #212224;
   /* background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -40,8 +40,8 @@ body {
 }
 .read-more {
   color: white;
+  background-color: #3264a8;
   border: 2px solid black;
-  background-color: rgb(103, 101, 210);
   text-align: center;
 }
 @keyframes App-logo-spin {
@@ -91,7 +91,7 @@ body {
 
 
 .header {
-  background-color: #272626;
+  background-color: #352d2d;
   color: white;
   padding: 10px;
   text-align: center;
